@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_packages_app/packages/animated_text_kit.dart';
 import 'package:widgets_packages_app/routes/app_routes.dart';
 
 void main() {
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      routes: AppRoutes.routes,
+      home: AnimatedTextKitScreen(),
     );
   }
 }
