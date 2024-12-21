@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_packages_app/packages/animated_text_kit.dart';
-import 'package:widgets_packages_app/routes/app_routes.dart';
+import 'package:widgets_packages_app/packages/fl_charts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AnimatedTextKitScreen(),
+      home: FlChartScreen(),
     );
   }
 }
