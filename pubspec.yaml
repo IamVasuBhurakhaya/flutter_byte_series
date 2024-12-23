@@ -39,6 +39,7 @@ dependencies:
   animated_text_kit: ^4.2.2
   fl_chart: ^0.69.2
   convex_bottom_bar: ^3.2.0
+  swipeable_tile: ^2.0.1
 
 dev_dependencies:
   flutter_test:

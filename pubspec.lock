@@ -216,6 +216,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  swipeable_tile:
+    dependency: "direct main"
+    description:
+      name: swipeable_tile
+      sha256: "6312b59b14c5ff22bf91aafa64d7e74df5f2322cb206db4c34d9d9946e3e44d4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   term_glyph:
     dependency: transitive
     description:
