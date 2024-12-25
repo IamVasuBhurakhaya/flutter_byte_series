@@ -40,6 +40,9 @@ dependencies:
   fl_chart: ^0.69.2
   convex_bottom_bar: ^3.2.0
   swipeable_tile: ^2.0.1
+  flutter_expandable_fab: ^2.3.0
+  water_drop_nav_bar: ^2.2.2
+  avatar_glow: ^3.0.1
 
 dev_dependencies:
   flutter_test:

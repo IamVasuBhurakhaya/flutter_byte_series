@@ -63,7 +63,10 @@ class HomePage extends StatelessWidget {
         child: Text(
           "Welcome to the Home Page!",
           style: TextStyle(
-              fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
         ),
       ),
     );
@@ -106,7 +109,10 @@ class SearchPage extends StatelessWidget {
           const Text(
             "Search for amazing content here!",
             style: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
         ],
       ),
@@ -138,7 +144,10 @@ class ProfilePage extends StatelessWidget {
           Text(
             "Your Name",
             style: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.bold, color: Colors.white),
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
           ),
           SizedBox(height: 8),
           Text(
