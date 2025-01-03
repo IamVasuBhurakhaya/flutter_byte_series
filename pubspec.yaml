@@ -45,6 +45,8 @@ dependencies:
   avatar_glow: ^3.0.1
   flutter_side_menu: ^0.5.41
   badges: ^3.1.2
+  fluent_ui: ^4.9.2
+  searchfield: ^1.2.1
 
 dev_dependencies:
   flutter_test:

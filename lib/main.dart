@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_packages_app/packages/flutter_side_menu.dart';
+import 'package:widgets_packages_app/packages/badge.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SideMenuScreen(),
+      home: BadgeScreen(),
     );
   }
 }
