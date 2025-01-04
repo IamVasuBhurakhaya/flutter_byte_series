@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_packages_app/packages/badge.dart';
+import 'package:widgets_packages_app/widgets/sliver_app_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BadgeScreen(),
+      home: CustomSliverAppBar(),
     );
   }
 }
