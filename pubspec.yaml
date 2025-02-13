@@ -48,6 +48,7 @@ dependencies:
   fluent_ui: ^4.9.2
   searchfield: ^1.2.1
   ticket_widget: ^1.0.2
+  photo_view: ^0.15.0
 
 dev_dependencies:
   flutter_test:
