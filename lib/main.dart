@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_packages_app/packages/flutter_sticky_header.dart';
 import 'package:widgets_packages_app/packages/photo_view.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PhotoGalleryPage(),
+      home: StickyHeaderPage(),
     );
   }
 }
