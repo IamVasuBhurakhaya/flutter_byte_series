@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_packages_app/packages/flutter_sticky_header.dart';
-import 'package:widgets_packages_app/packages/photo_view.dart';
+import 'package:widgets_packages_app/packages/clay_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StickyHeaderPage(),
+      home: ClayContainerPage(),
     );
   }
 }
