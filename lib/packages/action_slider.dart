@@ -47,7 +47,10 @@ class _ActionSliderPackageState extends State<ActionSliderPackage> {
                 width: 300.0,
                 backgroundColor: Colors.black,
                 toggleColor: Colors.redAccent,
-                child: const Text('Stretch Slider'),
+                child: const Text(
+                  'Stretch Slider',
+                  style: TextStyle(color: Colors.white),
+                ),
                 action: (controller) async {
                   controller.loading();
                   await Future.delayed(const Duration(seconds: 2));
@@ -161,7 +164,10 @@ class _ActionSliderPackageState extends State<ActionSliderPackage> {
                 ),
                 successIcon: const Icon(Icons.check_circle,
                     color: Colors.green, size: 30),
-                child: const Text('Loading Effect'),
+                child: const Text(
+                  'Loading Effect',
+                  style: TextStyle(color: Colors.white),
+                ),
                 action: (controller) async {
                   controller.loading();
                   await Future.delayed(const Duration(seconds: 2));
