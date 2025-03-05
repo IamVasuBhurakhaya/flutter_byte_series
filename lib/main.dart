@@ -1,4 +1,6 @@
+import 'package:action_slider/action_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:widgets_packages_app/packages/action_slider.dart';
 import 'package:widgets_packages_app/packages/clay_container.dart';
 
 void main() {
@@ -10,9 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ClayContainerPage(),
+      home: ActionSliderPackage(),
     );
   }
 }
