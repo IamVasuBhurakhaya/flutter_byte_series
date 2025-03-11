@@ -1,7 +1,6 @@
 import 'package:action_slider/action_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:widgets_packages_app/packages/action_slider.dart';
-import 'package:widgets_packages_app/packages/clay_container.dart';
+import 'package:widgets_packages_app/packages/flutter_flip_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ActionSliderPackage(),
+      home: FlipCardPage(),
     );
   }
 }
